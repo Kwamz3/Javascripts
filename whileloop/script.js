@@ -62,51 +62,51 @@
 // }while (!loggedIn)
 
 
-// const secretNumber = Math.floor(Math.random() * 10) + 1; // Random number from 1 to 10
-// let guess;
-// let attempts = 0;
-// const maxAttempts = 5;
-
-// do {
-//     guess = Number(prompt("Guess the secret number (1-10):"));
-//     attempts++;
-
-//     if (guess === secretNumber) {
-//         console.log(`🎉 Nice! You guessed it in ${attempts} attempt(s)!`);
-//         break;
-//     } else if (guess < secretNumber) {
-//         console.log("Too low! Try again.");
-//     } else {
-//         console.log("Too high! Try again.");
-//     }
-
-// } while (attempts < maxAttempts);
-
-// if (guess !== secretNumber) {
-//     console.log(`😢 Out of attempts! The secret number was ${secretNumber}.`);
-// }
-
-
-const secretNumber = Math.floor(Math.random() * 10) + 1;
-let guess = "";
+const secretNumber = Math.floor(Math.random() * 10) + 1; // Random number from 1 to 10
+let guess;
 let attempts = 0;
 const maxAttempts = 5;
 
-while (guess < maxAttempts) {
-    guess = Number(window.prompt("Enter a number from 1-10:"));
+do {
+    guess = Number(prompt("Guess the secret number (1-10):"));
     attempts++;
 
-    if (guess == secretNumber) {
-        console.log("Great!!! That's the answer!");
-        console.log(`Took you ${attempts} to guess it`);
+    if (guess === secretNumber) {
+        console.log(`🎉 Nice! You guessed it in ${attempts} attempt(s)!`);
         break;
     } else if (guess < secretNumber) {
-        console.log("Too low...Try again!");
+        console.log("Too low! Try again.");
     } else {
-        console.log("Too high...Try again!");    
+        console.log("Too high! Try again.");
     }
+
+} while (attempts < maxAttempts);
+
+if (guess !== secretNumber) {
+    console.log(`😢 Out of attempts! The secret number was ${secretNumber}.`);
+}
+
+
+// const secretNumber = Math.floor(Math.random() * 10) + 1;
+// let guess = "";
+// let attempts = 0;
+// const maxAttempts = 5;
+
+// while (guess < maxAttempts) {
+//     guess = Number(window.prompt("Enter a number from 1-10:"));
+//     attempts++;
+
+//     if (guess == secretNumber) {
+//         console.log("Great!!! That's the answer!");
+//         console.log(`Took you ${attempts} to guess it`);
+//         break;
+//     } else if (guess < secretNumber) {
+//         console.log("Too low...Try again!");
+//     } else {
+//         console.log("Too high...Try again!");    
+//     }
     
-}
-if (attempts == maxAttempts) {
-    console.log(`Out of attempts! The number was ${secretNumber}.`)
-}
+// }
+// if (attempts == maxAttempts) {
+//     console.log(`Out of attempts! The number was ${secretNumber}.`)
+// }
