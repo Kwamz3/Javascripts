@@ -45,46 +45,46 @@
 // console.log("Credentials approved");
 
 
-// let loggedIn = false;
-// let username;
-// let password;
+let loggedIn = false;
+let username;
+let password;
 
-// do{
-//     username = window.prompt("Enter your username");
-//     password = window.prompt("Enter your password");
+do{
+    username = window.prompt("Enter your username");
+    password = window.prompt("Enter your password");
 
-//     if (username == "uSerName" && password == "PassWord") {
-//         loggedIn = true;
-//         console.log("You are logged in!")
-//     } else {
-//         console.log("Invalid credentials! Try again!")
-//     }
-// }while (!loggedIn)
-
-
-const secretNumber = Math.floor(Math.random() * 10) + 1; // Random number from 1 to 10
-let guess;
-let attempts = 0;
-const maxAttempts = 5;
-
-do {
-    guess = Number(prompt("Guess the secret number (1-10):"));
-    attempts++;
-
-    if (guess === secretNumber) {
-        console.log(`🎉 Nice! You guessed it in ${attempts} attempt(s)!`);
-        break;
-    } else if (guess < secretNumber) {
-        console.log("Too low! Try again.");
+    if (username == "uSerName" && password == "PassWord") {
+        loggedIn = true;
+        console.log("You are logged in!")
     } else {
-        console.log("Too high! Try again.");
+        console.log("Invalid credentials! Try again!")
     }
+}while (!loggedIn)
 
-} while (attempts < maxAttempts);
 
-if (guess !== secretNumber) {
-    console.log(`😢 Out of attempts! The secret number was ${secretNumber}.`);
-}
+// const secretNumber = Math.floor(Math.random() * 10) + 1; // Random number from 1 to 10
+// let guess;
+// let attempts = 0;
+// const maxAttempts = 5;
+
+// do {
+//     guess = Number(prompt("Guess the secret number (1-10):"));
+//     attempts++;
+
+//     if (guess === secretNumber) {
+//         console.log(`🎉 Nice! You guessed it in ${attempts} attempt(s)!`);
+//         break;
+//     } else if (guess < secretNumber) {
+//         console.log("Too low! Try again.");
+//     } else {
+//         console.log("Too high! Try again.");
+//     }
+
+// } while (attempts < maxAttempts);
+
+// if (guess !== secretNumber) {
+//     console.log(`😢 Out of attempts! The secret number was ${secretNumber}.`);
+// }
 
 
 // const secretNumber = Math.floor(Math.random() * 10) + 1;
