@@ -45,21 +45,21 @@
 // console.log("Credentials approved");
 
 
-let loggedIn = false;
-let username;
-let password;
+// let loggedIn = false;
+// let username;
+// let password;
 
-do{
-    username = window.prompt("Enter your username");
-    password = window.prompt("Enter your password");
+// do{
+//     username = window.prompt("Enter your username");
+//     password = window.prompt("Enter your password");
 
-    if (username == "uSerName" && password == "PassWord") {
-        loggedIn = true;
-        console.log("You are logged in!")
-    } else {
-        console.log("Invalid credentials! Try again!")
-    }
-}while (!loggedIn)
+//     if (username == "uSerName" && password == "PassWord") {
+//         loggedIn = true;
+//         console.log("You are logged in!")
+//     } else {
+//         console.log("Invalid credentials! Try again!")
+//     }
+// }while (!loggedIn)
 
 
 // const secretNumber = Math.floor(Math.random() * 10) + 1; // Random number from 1 to 10
@@ -87,26 +87,26 @@ do{
 // }
 
 
-// const secretNumber = Math.floor(Math.random() * 10) + 1;
-// let guess = "";
-// let attempts = 0;
-// const maxAttempts = 5;
+const secretNumber = Math.floor(Math.random() * 10) + 1;
+let guess = "";
+let attempts = 0;
+const maxAttempts = 5;
 
-// while (guess < maxAttempts) {
-//     guess = Number(window.prompt("Enter a number from 1-10:"));
-//     attempts++;
+while (guess < maxAttempts) {
+    guess = Number(window.prompt("Enter a number from 1-10:"));
+    attempts++;
 
-//     if (guess == secretNumber) {
-//         console.log("Great!!! That's the answer!");
-//         console.log(`Took you ${attempts} to guess it`);
-//         break;
-//     } else if (guess < secretNumber) {
-//         console.log("Too low...Try again!");
-//     } else {
-//         console.log("Too high...Try again!");    
-//     }
+    if (guess == secretNumber) {
+        console.log("Great!!! That's the answer!");
+        console.log(`Took you ${attempts} to guess it`);
+        break;
+    } else if (guess < secretNumber) {
+        console.log("Too low...Try again!");
+    } else {
+        console.log("Too high...Try again!");    
+    }
     
-// }
-// if (attempts == maxAttempts) {
-//     console.log(`Out of attempts! The number was ${secretNumber}.`)
-// }
+}
+if (attempts == maxAttempts) {
+    console.log(`Out of attempts! The number was ${secretNumber}.`)
+}
