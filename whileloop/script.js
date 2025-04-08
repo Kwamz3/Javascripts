@@ -87,26 +87,23 @@
 // }
 
 
-const secretNumber = Math.floor(Math.random() * 10) + 1;
-let guess = "";
-let attempts = 0;
-const maxAttempts = 5;
+// const secretNumber = (Math.floor(Math.random() * 10) + 1);
+// let guess = "";
+// let attempts = 0;
+// const maxAttempts = 5;
 
-while (guess < maxAttempts) {
-    guess = Number(window.prompt("Enter a number from 1-10:"));
-    attempts++;
-
-    if (guess == secretNumber) {
-        console.log("Great!!! That's the answer!");
-        console.log(`Took you ${attempts} to guess it`);
-        break;
-    } else if (guess < secretNumber) {
-        console.log("Too low...Try again!");
-    } else {
-        console.log("Too high...Try again!");    
-    }
-    
-}
-if (attempts == maxAttempts) {
-    console.log(`Out of attempts! The number was ${secretNumber}.`)
-}
+// while (guess < maxAttempts) {
+//     guess = Number(window.prompt("Guess a number between 1-10:"))
+//     attempts++;
+//     if (guess == secretNumber) {
+//         console.log("Great Job! That's the answer!");
+//         console.log(`It took you ${attempts} attempts.`);
+//         break;
+//     } else if (guess < secretNumber) {
+//         console.log("mmm... too low");
+//     } else {
+//         console.log("nerhh... too high");
+//     }
+// } if (attempts == maxAttempts) {
+//     console.log(`You've run out of attempts... the correct answer was ${secretNumber}.`); 
+// }
