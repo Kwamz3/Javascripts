@@ -14,14 +14,20 @@
 // function add(x, y) {
 //     return x + y;
 // }
-
-// console.log(add(4, 39));
 // function subtract(x, y) {
 //     return x - y;
 // }
+// function divide(x, y) {
+//     return x / y;
+// }
+// function multiply(x, y) {
+//     return x * y;
+// }
 
-// console.log(subtract(4, 39));
-
+// console.log(add(4, 7));
+// console.log(subtract(4, 7));
+// console.log(multiply(4, 7));
+// console.log(divide(4, 7));
 
 // function isEven(number) {
 //     number = Number(window.prompt("Enter your number"));
@@ -65,10 +71,10 @@
 //     }
 // }
 
-// isValidEmail("Brogmail");
+isValidEmail("Brogmail");
 function isValidEmail(email) {
     
     return email.includes("@") ? true : false
 }
 
-console.log(isValidEmail("Brogmail"));
+console.log(isValidEmail("Bro@gmail"));
