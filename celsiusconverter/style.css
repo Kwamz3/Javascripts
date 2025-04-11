@@ -25,3 +25,31 @@ form{
     border-radius: 5px;
     margin-bottom: 15px;
 }
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 5px;
+    background-color: hsl(240, 100%, 82%);
+    font-size: 1.5em;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(240, 100%, 76%);
+    font-size: 1.7em;
+    border: 3px solid hsl(0, 0%, 0%);
+}
+
+
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
+}
