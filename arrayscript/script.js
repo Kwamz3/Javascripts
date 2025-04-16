@@ -15,11 +15,18 @@ let fruits = ["apple", "banana", "orange", "coconut", "pear"];
 // let numOFArray = fruits.length
 // console.log(numOFArray);
 
+let indexOfArray = fruits.indexOf("banana")
+
 // for (let i = fruits.length - 1; i >= 0; i--){
 //     console.log(fruits[i]);
 // }
 
-fruits.sort().reverse();
-for (let fruit of fruits){
-    console.log(fruit);
-}
+// for (let i = 0; i < fruits.length; i++){
+//     console.log(fruits[i])
+// }
+
+// fruits.sort();
+// fruits.reverse();
+// for (let fruit of fruits){
+//     console.log(fruit);
+// }
