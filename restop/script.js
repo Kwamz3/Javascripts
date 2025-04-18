@@ -15,18 +15,16 @@
 //     console.log(...things);
 // }
 
-
-
 function commonsEye(...things) {
-    return foods
+    return things
 }
 
-const thing1 = "computers";
-const thing2 = "book";
-const thing3 = "phones";
-const thing4 = "pods";
-const thing5 = "mouse";
+let thing1 = "book"
+let thing2 = "mouse"
+let thing3 = "phone"
+let thing4 = "pods"
+let thing5 = "laptop"
 
 const thing = commonsEye(thing1, thing2, thing3, thing4, thing5);
-
 console.log(thing);
+
