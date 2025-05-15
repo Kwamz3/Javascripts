@@ -33,14 +33,8 @@
 // }, 3000);
 
 const numbers = [1, 2, 3, 4, 5];
-function timer(callback, delay) {
-    console.log("calculating...");
+const squared = numbers.map(function (element) {
+    return Math.pow(element, 2);
+});
 
-    setTimeout(function () {
-        callback()
-    }, delay);
-};
-
-timer(function () {
-console.log(numbers)    
-}, 3000)
+console.log(squared);
