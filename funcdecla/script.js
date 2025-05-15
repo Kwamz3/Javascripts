@@ -52,3 +52,15 @@ const evenNums = cubed.filter(function (element) {
 });
 
 console.log(evenNums);
+
+const oddNums = numbers.filter(function (element) {
+    return element % 2 === 1;
+});
+
+console.log(oddNums);
+
+const total = numbers.reduce(function (accumulator, element) {
+    return accumulator + element;
+});
+
+console.log(total)
