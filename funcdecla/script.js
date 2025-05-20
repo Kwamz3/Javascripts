@@ -39,28 +39,36 @@
 
 // console.log(squared);
 
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const cubed = numbers.map(function(element) {
+//     return Math.pow(element, 3);
+// });
+
+// console.log(cubed);
+
+// const numbers1 = [1, 2, 3, 4, 5, 6];
+// const evenNums = cubed.filter(function (element) {
+//     return element % 2 === 0;
+// });
+
+// console.log(evenNums);
+
+// const oddNums = numbers.filter(function (element) {
+//     return element % 2 === 1;
+// });
+
+// console.log(oddNums);
+
+// const total = numbers.reduce(function (accumulator, element) {
+//     return accumulator + element;
+// });
+
+// console.log(total)
+
 const numbers = [1, 2, 3, 4, 5, 6];
-const cubed = numbers.map(function(element) {
-    return Math.pow(element, 3);
-});
+const counted = numbers.forEach(countNum);
 
-console.log(cubed);
-
-const numbers1 = [1, 2, 3, 4, 5, 6];
-const evenNums = cubed.filter(function (element) {
-    return element % 2 === 0;
-});
-
-console.log(evenNums);
-
-const oddNums = numbers.filter(function (element) {
-    return element % 2 === 1;
-});
-
-console.log(oddNums);
-
-const total = numbers.reduce(function (accumulator, element) {
-    return accumulator + element;
-});
-
-console.log(total)
+console.log(counted)
+function countNum(element, index, array) {
+    array[index] = console.log(element)
+};
