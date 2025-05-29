@@ -23,19 +23,33 @@
 
 // carRental("Charles", "Aventador")
 
-const travelT = (name, age, Nationality) => {
-    console.log(`Name: ${name}`);
-    console.log(`Age: ${age}`);
-    console.log(`Country: ${Nationality}`);
-};
+// const travelT = (name, age, Nationality) => {
+//     console.log(`Name: ${name}`);
+//     console.log(`Age: ${age}`);
+//     console.log(`Country: ${Nationality}`);
+// };
 
-travelT("Charles", 22, "Ghanaian");
+// travelT("Charles", 22, "Ghanaian");
 
 // setTimeout(hello, 3000);
 
 // function hello() {
 //     console.log("Hello!")
 // };
+
+function carRental(callback, delay) {
+    console.log("Loading...")
+
+    setTimeout(function () {
+        callback()
+    }, delay)
+}
+
+carRental(function () {
+    name = "Charles";
+    car = "Aventador";
+    console.log(`Hey ${name}, your ${car} is ready`)
+}, 3000)
 
 // setTimeout(function () {
 // console.log("My name is Charles")
