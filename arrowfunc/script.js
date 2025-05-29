@@ -8,9 +8,9 @@
 
 // caller();
 
-const trial1 = () => console.log("Hello");
+// const trial1 = () => console.log("Hello");
 
-trial1();
+// trial1();
 
 // const myName = (name, age) => {
 //     console.log(`Hello ${name}`);
@@ -18,6 +18,18 @@ trial1();
 // }
 
 // myName("Charles", "8")
+
+// const carRental = (name, car) => console.log(`Hey ${name}, your ${car} is ready`);
+
+// carRental("Charles", "Aventador")
+
+const travelT = (name, age, Nationality) => {
+    console.log(`Name: ${name}`);
+    console.log(`Age: ${age}`);
+    console.log(`Country: ${Nationality}`);
+};
+
+travelT("Charles", 22, "Ghanaian");
 
 // setTimeout(hello, 3000);
 
