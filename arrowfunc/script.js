@@ -8,6 +8,10 @@
 
 // caller();
 
+const trial1 = () => console.log("Hello");
+
+trial1();
+
 // const myName = (name, age) => {
 //     console.log(`Hello ${name}`);
 //     console.log(`You are ${age} years old`)
@@ -33,16 +37,16 @@
 
 // console.log(squared);
 
-const numbers = [1, 2, 3, 4, 5, 6];
-const cubed = numbers.map((element) => Math.pow(element, 3));
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const cubed = numbers.map((element) => Math.pow(element, 3));
 
-console.log(cubed);
+// console.log(cubed);
 
-const evenNums = cubed.filter((element) => element % 2 === 0)
-console.log(evenNums)
+// const evenNums = cubed.filter((element) => element % 2 === 0)
+// console.log(evenNums)
 
-const oddNums = cubed.filter((element) => element % 2 !== 0)
-console.log(oddNums)
+// const oddNums = cubed.filter((element) => element % 2 !== 0)
+// console.log(oddNums)
 
-const sumNums = cubed.reduce((accummulator, element) => accummulator + element)
-console.log(sumNums)
+// const sumNums = cubed.reduce((accummulator, element) => accummulator + element)
+// console.log(sumNums)
