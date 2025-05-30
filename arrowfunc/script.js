@@ -37,19 +37,19 @@
 //     console.log("Hello!")
 // };
 
-function carRental(callback, delay) {
-    console.log("Loading...")
+// function carRental(callback, delay) {
+//     console.log("Loading...")
 
-    setTimeout(function () {
-        callback()
-    }, delay)
-}
+//     setTimeout(function () {
+//         callback()
+//     }, delay)
+// }
 
-carRental(function () {
-    name = "Charles";
-    car = "Aventador";
-    console.log(`Hey ${name}, your ${car} is ready`)
-}, 3000)
+// carRental(function () {
+//     name = "Charles";
+//     car = "Aventador";
+//     console.log(`Hey ${name}, your ${car} is ready`)
+// }, 3000);
 
 // setTimeout(function () {
 // console.log("My name is Charles")
@@ -60,8 +60,11 @@ carRental(function () {
 
 // const numbers = [1, 2, 3, 4, 5, 6];
 // const squared = numbers.map((element) => Math.pow(element, 2))
+// onsole.log(squared);
 
-// console.log(squared);
+// const numbers = [1, 2, 3, 4, 5];
+//  const added = numbers.map((element) => element + 102);
+// console.log(added);
 
 // const numbers = [1, 2, 3, 4, 5, 6];
 // const cubed = numbers.map((element) => Math.pow(element, 3));
