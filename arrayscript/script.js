@@ -1,6 +1,9 @@
 // let fruits = ["apple", "banana", "orange", "coconut", "pear"];
 
 let cars = ["Pontiac", "Toyota", "Benz", "Ford"];
+// cars.pop();
+
+console.log(cars)
 
 // fruits.pop();
 // fruits.unshift("mango");
