@@ -1,4 +1,6 @@
-let fruits = ["apple", "banana", "orange", "coconut", "pear"];
+// let fruits = ["apple", "banana", "orange", "coconut", "pear"];
+
+let cars = ["Pontiac", "Toyota", "Benz", "Ford"];
 
 // fruits.pop();
 // fruits.unshift("mango");
@@ -15,7 +17,7 @@ let fruits = ["apple", "banana", "orange", "coconut", "pear"];
 // let numOFArray = fruits.length
 // console.log(numOFArray);
 
-let indexOfArray = fruits.indexOf("banana")
+// let indexOfArray = fruits.indexOf("banana")
 
 // for (let i = fruits.length - 1; i >= 0; i--){
 //     console.log(fruits[i]);
