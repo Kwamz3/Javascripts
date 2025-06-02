@@ -1,10 +1,14 @@
 // let fruits = ["apple", "banana", "orange", "coconut", "pear"];
 
 let cars = ["Pontiac", "Toyota", "Benz", "Ford"];
-// cars.pop();
-cars.unshift("Honda");
 
-console.log(cars)
+// // cars.shift(); // [takes an element from the start of an array]
+// // cars.pop(); //[takes an element from the end of the array]
+// //  cars.unshift("Honda"); //[adds an element to the start of the array]
+// //  cars.push("Civic"); //[adds an element to the end of the array]
+
+
+// console.log(cars);
 
 // fruits.pop();
 // fruits.unshift("mango");
