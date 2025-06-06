@@ -10,8 +10,13 @@
 
 // console.log(letters);
 
-let fruits = ["apple", "banana", "orange"];
-let veggies = ["tomato", "celery", "spinnach"]
-let newFruits = [...fruits, ...veggies];
+// let fruits = ["apple", "banana", "orange"];
+// let veggies = ["tomato", "celery", "spinnach"]
+// let newFruits = [...fruits, ...veggies];
 
-console.log(newFruits);
+// console.log(newFruits);
+
+let cars = ["Toyota", "Benz", "Vibe", "Honda"];
+cars2 = [...cars]
+
+console.log(cars2);

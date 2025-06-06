@@ -30,8 +30,8 @@ let fruits = ["apple", "orange", "banana", "kiwi", "pomegranate", "coconut"];
 //     return element <= 18;
 // }
 
-// const fruitarr = fruits.filter(fruitLength);
-// console.log(fruitarr);
+// const fruitArr = fruits.filter(fruitLength);
+// console.log(fruitArr);
 // function fruitLength(element) {
 //     return element.length <= 6; 
 // };
