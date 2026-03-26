@@ -4,8 +4,8 @@ userName = "BapeDavies";
 // console.log(userName.charAt(3));
 // console.log(userName.indexOf("p"));
 
-// console.log(userName.lastIndexOf("a"));
-// console.log(userName.length);
+console.log(userName.lastIndexOf("a"));
+console.log(userName.length);
 
 // console.log(userName.length);
 // let d = userName.trim();
@@ -36,6 +36,6 @@ userName = "BapeDavies";
 // console.log(phoneNumber);
 
 let phoneNumber = "053-087-1515";
-phoneNumber = phoneNumber.padEnd(15, "0")
+phoneNumber = phoneNumber.padEnd(10, "0")
 
 console.log(phoneNumber);
